@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>瓜瓜学习-信息</title>
+		<meta charset="GB2312" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css"  />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css"  /></noscript>
+	</head>
+	<body onselectstart="return false" oncontextmenu=self.event.returnValue=false> 
+
+         
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+
+							<span class=""><font size="8">学</font></span>						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>瓜瓜学习-信息</h1>
+								<p id="hitokoto" style="font-size: 30px;">瓜瓜正获取中......</p>
+
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      const hitokoto = document.getElementById('hitokoto')
+      hitokoto.innerText = data.hitokoto
+    })
+    .catch(console.error)
+</script>
+
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="https://study.luyaoguagua.top/it/exam.exe" target="_blank">测试软件</a></li>
+
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">2020<a href="https://luyaoguagua.top/" target="_blank">陆尧瓜瓜</a> 版权所有
+
+
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js" ></script>
+			<script src="assets/js/skel.min.js" ></script>
+			<script src="assets/js/util.js" ></script>
+			<script src="assets/js/main.js" ></script>
+
+
+	</body>
+</html>
