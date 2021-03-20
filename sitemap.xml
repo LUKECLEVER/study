@@ -8,30 +8,21 @@
 
 <url>
  <loc>https://study.luyaoguagua.top/bio/</loc>
- <priority>0.3</priority>
- <lastmod>2021-02-18</lastmod>
+ <priority>1</priority>
  <changefreq>always</changefreq>
 </url>
 
 <url>
  <loc>https://study.luyaoguagua.top</loc>
- <priority>0.3</priority>
- <lastmod>2021-02-18</lastmod>
+ <priority>1</priority>
  <changefreq>always</changefreq>
 </url>
 
 <url>
  <loc>https://study.luyaoguagua.top/math/</loc>
- <priority>0.3</priority>
- <lastmod>2021-02-18</lastmod>
+ <priority>1</priority>
  <changefreq>always</changefreq>
 </url>
 
-<url>
- <loc>https://luyaoguagua.top/</loc>
- <priority>0.3</priority>
- <lastmod>2021-02-18</lastmod>
- <changefreq>always</changefreq>
-</url>
 
 </urlset>
